@@ -21,12 +21,12 @@ function pioneerAvrAccessory(log, config) {
     this.name = config.name;
     this.host = config.host;
     this.port = config.port;
-    this.model = config.model || "VSX-922";
+    this.model = config.model || "SC-LX88";
     this.prefsDir = config.prefsDir || ppath('pioneerAvr/');
 
     log.debug('Preferences directory : %s', this.prefsDir);
     this.manufacturer = "Pioneer";
-    this.version = "0.8.1";
+    this.version = "0.8.2";
 
     // check if prefs directory ends with a /, if not then add it
     if (this.prefsDir.endsWith('/') === false) {
@@ -38,12 +38,12 @@ function pioneerAvrAccessory(log, config) {
         mkdirp(this.prefsDir);
     }
 
-    this.inputVisibilityFile = this.prefsDir + 'inputsVisibility_' + this.host;
+    this.inputVisibilityFile = this.prefsDir + 'inputsVisibility_' + this.name + ".json";
     this.savedVisibility = {};
     try {
         this.savedVisibility = JSON.parse(fs.readFileSync(this.inputVisibilityFile));
     } catch (err) {
-        this.log.debug('Input visibility file does not exist');
+        this.log.info('Input visibility file does not exist');
     }
 
     this.avr = new PioneerAvr(this.log, this.host, this.port);
