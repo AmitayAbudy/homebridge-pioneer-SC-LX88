@@ -53,6 +53,9 @@ https://github.com/TG908/homebridge-vsx
 
 ## Release Notes
 
+### v0.8.2
+* Fized the creation of the input visibility file
+
 ### v0.8.1
 
 * Modify telnet-avr to comply with RS232 specs
