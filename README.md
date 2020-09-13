@@ -1,8 +1,10 @@
-# homebridge-pioneer-avr [![npm version](https://badge.fury.io/js/homebridge-pioneer-avr.svg)](https://badge.fury.io/js/homebridge-pioneer-avr)
-
+# homebridge-pioneer-avr fork
 homebridge-pioneer-avr is a plugin made for [homebridge](https://github.com/nfarina/homebridge),
-which declare your Pioneer AVR as a TV in homekit (iOS 12.2 needed).
-It should work with Pioneer AVRs supported by the iControl AV5 App. It works well with my VSX-922.
+which declare your Pioneer AVR as a TV in homekit (iOS 12.2+ needed).
+It should work with Pioneer AVRs supported by the iControl AV5 App.
+
+For me (Pioneer SC-LX88) the original module made my homebridge crash while checking the available inputs.
+So I changed some settings in order to finish scanning the inputs with no crashing.
 
 ## Features
 
@@ -18,8 +20,10 @@ Declare your AVR as a homekit TV :
 
 ## Installation
 
+This plugin is not yet on NPM. Insatllation only via GitHub at the moment...
+
 1. Install the homebridge framework using `npm install -g homebridge`
-2. Install **homebridge-pioneer-avr** using `npm install -g homebridge-pioneer-avr`
+2. Install **homebridge-pioneer-avr** using `npm install -g git+https://git@github.com/AmitayAbudy/homebridge-pioneer-avr`
 3. Update your configuration file. See `sample-config.json` in this repository for a sample. 
 
 ## Accessory configuration example
