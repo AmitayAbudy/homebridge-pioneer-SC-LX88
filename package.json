@@ -1,6 +1,6 @@
 {
   "name": "homebridge-pioneer-sc-lx88",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "Pioneer SC-LX88 plugin for homebridge. This plugin is originally forked from homebridge-pioneer-avr https://github.com/kazcangi/homebridge-pioneer-avr",
   "license": "MIT",
   "keywords": [

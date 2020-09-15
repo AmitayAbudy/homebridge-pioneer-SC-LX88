@@ -54,6 +54,9 @@ https://github.com/TG908/homebridge-vsx
 
 ## Release Notes
 
+### v0.8.3
+* Fixed bugs
+
 ### v0.8.2
 * Fixed functionality for the Pioneer SC-LX88
 
