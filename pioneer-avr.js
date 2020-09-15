@@ -1,7 +1,6 @@
 /*
     Helper module for controlling Pioneer AVR
 */
-?RGB
 const request = require('request');
 const TelnetAvr = require('./telnet-avr');
 
