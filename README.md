@@ -54,6 +54,9 @@ https://github.com/TG908/homebridge-vsx
 
 ## Release Notes
 
+### v0.8.4
+* More bugs fixed
+
 ### v0.8.3
 * Fixed bugs
 
