@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-pioneer-avr",
-  "version": "0.8.1",
-  "description": "Pioneer AVR plugin for homebridge: https://github.com/nfarina/homebridge",
+  "name": "homebridge-pioneer-sc-lx88",
+  "version": "0.8.2",
+  "description": "Pioneer SC-LX88 plugin for homebridge. This plugin is originally forked from homebridge-pioneer-avr https://github.com/kazcangi/homebridge-pioneer-avr",
   "license": "MIT",
   "keywords": [
     "homebridge-plugin",
@@ -14,11 +14,11 @@
     "homebridge": ">=0.4.49"
   },
   "author": {
-    "name": "Kazcangi"
+    "name": "AmitayAbudy"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kazcangi/homebridge-pioneer-avr.git"
+    "url": "git://github.com/AmitayAbudy/homebridge-pioneer-SC-LX88.git"
   },
   "dependencies": {
     "net": "",

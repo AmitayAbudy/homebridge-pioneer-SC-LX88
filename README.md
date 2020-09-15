@@ -1,4 +1,5 @@
-# homebridge-pioneer-avr fork
+# homebridge-pioneer-SC-LX88
+This pproject was forked from [homebridge-pioneer-avr](https://github.com/kazcangi/homebridge-pioneer-avr).
 homebridge-pioneer-avr is a plugin made for [homebridge](https://github.com/nfarina/homebridge),
 which declare your Pioneer AVR as a TV in homekit (iOS 12.2+ needed).
 It should work with Pioneer AVRs supported by the iControl AV5 App.
@@ -23,8 +24,8 @@ Declare your AVR as a homekit TV :
 This plugin is not yet on NPM. Insatllation only via GitHub at the moment...
 
 1. Install the homebridge framework using `npm install -g homebridge`
-2. Install **homebridge-pioneer-avr** using `npm install -g git+https://git@github.com/AmitayAbudy/homebridge-pioneer-avr`
-3. Update your configuration file. See `sample-config.json` in this repository for a sample. 
+2. Install **homebridge-pioneer-SC-LX88** using `npm install -g git+https://git@github.com/AmitayAbudy/homebridge-pioneer-SC-LX88`
+3. Update your configuration file. See `sample-config.json` in this repository for a sample.
 
 ## Accessory configuration example
 
@@ -32,10 +33,10 @@ This plugin is not yet on NPM. Insatllation only via GitHub at the moment...
 "accessories": [
 	{
         "accessory": "pioneerAvrAccessory",
-        "model": "VSX-922",
+        "model": "SC-LX88",
         "name": "My Pioneer AVR",
         "description": "AV Receiver",
-        "host": "192.168.178.99",
+        "host": "192.168.1.128",
         "port": 23
 	}
 ]
@@ -54,7 +55,7 @@ https://github.com/TG908/homebridge-vsx
 ## Release Notes
 
 ### v0.8.2
-* Fized the creation of the input visibility file
+* Fixed functionality for the Pioneer SC-LX88
 
 ### v0.8.1
 
@@ -87,4 +88,3 @@ https://github.com/TG908/homebridge-vsx
 * Select active input in home app
 * Select inputs to show in the input list
 * Control volume through the command in control center with iPhone +/- buttons
-
