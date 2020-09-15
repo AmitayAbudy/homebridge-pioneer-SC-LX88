@@ -1,5 +1,6 @@
 # homebridge-pioneer-SC-LX88
-This pproject was forked from [homebridge-pioneer-avr](https://github.com/kazcangi/homebridge-pioneer-avr).
+This project was forked from [homebridge-pioneer-avr](https://github.com/kazcangi/homebridge-pioneer-avr).
+
 homebridge-pioneer-avr is a plugin made for [homebridge](https://github.com/nfarina/homebridge),
 which declare your Pioneer AVR as a TV in homekit (iOS 12.2+ needed).
 It should work with Pioneer AVRs supported by the iControl AV5 App.
